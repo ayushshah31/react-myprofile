@@ -74,6 +74,16 @@
   }
 }
 
+a{
+    font-family: 'Coolvetica';
+    font-size: 1.5em;
+    text-decoration: none;
+    color: orange;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .stage-cube-cont{
         position: initial;

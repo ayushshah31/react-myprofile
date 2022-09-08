@@ -34,6 +34,8 @@ const About = () => {
                     <p>
                         I have a year's worth of experience creating apps for both personal projects as well as my college committee, and I'm now working on two app development projects with Harvard Mclean Hospital. Regarding web programming, I've worked on a variety of personal projects and a few group projects with my friends.
                     </p>
+                    <a href='https://firebasestorage.googleapis.com/v0/b/portfolio-49294.appspot.com/o/Resume.pdf?alt=media&token=1e635090-3774-4f1f-a6ea-46acb2b6193d' target='_blank' rel="noreferrer" >
+                        <h2>My Resume</h2></a>
                 </div>
 
                 <div className='stage-cube-cont'>
