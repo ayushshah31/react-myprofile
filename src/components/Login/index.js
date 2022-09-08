@@ -6,7 +6,7 @@ import '../Home/index.scss';
 const Login = () => {
     return ( 
         <div className="dashboard">
-            <button className="flat-button" style={{ 'aniumation': 'none', 'background': 'transparent', }}
+            <button className="flat-button" style={{ 'animation': 'none', 'background': 'transparent', }}
                 onClick={signInWithGoogle}>
                 <FontAwesomeIcon icon={faGoogle} style={{'marginRight':'20px'}} />
                 Sign in with Google

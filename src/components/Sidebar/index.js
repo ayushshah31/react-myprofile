@@ -13,7 +13,7 @@ const Sidebar = () => {
             <Link to='/dashboard' className='logo'>
                 <img src={LogoA} alt="logo" />
                 {/* <img className='.sub-logo' src={LogoSubtitle} alt="logo-subtitle" /> */}
-                A y u s h
+                Ayush
             </Link>
             <nav className={showNav? 'mobile-show' : ""}>
                 <NavLink exact='true' activeclassname='active' to='/' onClick={() => setShowNav(false)}>

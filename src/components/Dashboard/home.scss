@@ -54,3 +54,24 @@
         box-sizing: border-box;
     }
 }
+.flat-button{
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: 'sans-serif';
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    animation: fadeIn 1s 1.8s backwards;
+
+    &:hover{
+        background-color: #ffd700;
+        color: #333
+    }
+}
+
+@media screen and (max-width:1200px) {
+    
+}
