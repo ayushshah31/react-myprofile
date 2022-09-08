@@ -67,17 +67,17 @@ const Contact = () => {
                     <br />
                     India,
                     <br />
-                    Cadbury Street, Ice-Cream Tower <br />
-                    Brownie Town <br />
+                    Mumbai <br />
+                    {/* Brownie Town <br /> */}
                     <span>shahayush934@gmail.com</span>
                 </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[19.04327523383341, 72.86324422747452]} zoom={13} scrollWheelZoom={false}>
+                    <MapContainer center={[18.922064, 72.834641]} zoom={15} scrollWheelZoom={false}>
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <Marker position={[19.04327523383341, 72.86324422747452]}>
+                        <Marker position={[18.922064, 72.834641]}>
                             <Popup>
                                 Ayush Lives here!.<br /> Come over for an ice-cream & chat :)
                             </Popup>
